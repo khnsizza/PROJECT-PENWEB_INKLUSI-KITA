@@ -1,0 +1,179 @@
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #fff, #93c5fd);
+}
+
+
+/* Header Section */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #f0f9ff;
+}
+
+.header-content h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+.header-content p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.button-container {
+    margin-top: 15px;
+}
+
+.company-btn,
+.tap-btn {
+    padding: 8px 12px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.company-btn {
+    background-color: #d1e5f5;
+    color: #333;
+}
+
+.tap-btn {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+.hero-image img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+/* Partners Section */
+
+.partners {
+    background-color: #1e3a8a;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.partner-logos img {
+    margin: 0 15px;
+    width: 60px;
+}
+
+
+/* Let's Get It Section */
+
+.lets-get-it {
+    text-align: center;
+    padding: 30px;
+}
+
+.lets-get-it h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.lets-get-it p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.images-container img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+/* Info Magang Section */
+
+.info-magang {
+    text-align: center;
+    padding: 30px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.card h3 {
+    font-size: 16px;
+    color: #333;
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 12px;
+    color: #777;
+}
+
+.card button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Footer Section */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(to top, #ff6f61, transparent);
+}
+
+.footer-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-boxes .box {
+    width: 60px;
+    height: 60px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.footer-image {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
